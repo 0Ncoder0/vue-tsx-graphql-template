@@ -13,5 +13,5 @@ cd vue-tsx-graphql-template
 npm install
 
 # develop
-npm run serve
+npm run serve:dev
 ```
