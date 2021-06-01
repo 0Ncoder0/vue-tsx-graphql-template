@@ -8,8 +8,10 @@ export default class App extends Vue {
       <div id="app">
         <div id="nav">
           <router-link to="/">Home</router-link>
-          <span>|</span>
+          <span> | </span>
           <router-link to="/about">About</router-link>
+          <span> | </span>
+          <router-link to="/graphql-example">GraphQL Example</router-link>
         </div>
         <router-view />
       </div>
